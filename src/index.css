@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@layer base {
+  :root {
+    --background: red;
+    --foreground: 241 90% 79.2%;
+
+    --card: 251.5 100% 71.8%;
+    --card-foreground: 241 90% 79.2%;
+
+    --popover: 251.5 100% 71.8%;
+    --popover-foreground: 241 90% 79.2%;
+
+    --primary: 251.5 83.7% 62.5%;
+    --primary-foreground: 224 40% 89.6%;
+
+    --secondary: 224 40% 89.6%;
+    --secondary-foreground: 251.5 100% 71.8%;
+
+    --muted: 224 40% 89.6%;
+    --muted-foreground: 226.1 32.6% 74.9%;
+
+    --accent: 224 40% 89.6%;
+    --accent-foreground: 251.5 100% 71.8%;
+
+    --destructive: 283.3 100% 74.9%;
+    --destructive-foreground: 224 40% 89.6%;
+
+    --border: 241.5 90% 79.2%;
+    --input: 241.5 90% 79.2%;
+    --ring: 251.5 100% 71.8%;
+
+    --radius: 0.5rem;
+  }
+
+  /* .dark {
+    --background: 251.5 100% 71.8%;
+    --foreground: 224 40% 89.6%;
+
+    --card: 251.5 100% 71.8%;
+    --card-foreground: 224 40% 89.6%;
+
+    --popover: 251.5 100% 71.8%;
+    --popover-foreground: 224 40% 89.6%;
+
+    --primary: 224 40% 89.6%;
+    --primary-foreground: 251.5 100% 71.8%;
+
+    --secondary: 241.5 72.9% 67.3%;
+    --secondary-foreground: 224 40% 89.6%;
+
+    --muted: 241.5 72.9% 67.3%;
+    --muted-foreground: 226.1 32.6% 74.9%;
+
+    --accent: 241.5 72.9% 67.3%;
+    --accent-foreground: 224 40% 89.6%;
+
+    --destructive: 296 100% 84.3%;
+    --destructive-foreground: 224 40% 89.6%;
+
+    --border: 241.5 72.9% 67.3%;
+    --input: 241.5 72.9% 67.3%;
+    --ring: 238.7 50% 80.8%;
+  } */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.logoText {
+  font-family: "Gluten", sans-serif;
+}
